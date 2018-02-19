@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    >
+    <LinearLayout
+        style="@style/layoutOne">
+        <LinearLayout
+            style="@style/layoutTwo">
+            <ImageView
+                style="@style/imageLogo"/>
+            <TextView
+                style="@style/textCompanyName"
+                android:fontFamily="sans-serif-light"
+                android:textAlignment="center"/>
+            <TextView
+                android:fontFamily="sans-serif-light"
+                android:textAlignment="center"
+                style="@style/text_slogan"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/layoutthree">
+            <LinearLayout
+              style="@style/layoutfour">
+                <ImageView
+                   style="@style/imagelocation"/>
+                <TextView
+                    android:textAlignment="center"
+                    style="@style/textlocation"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/layoutfive">
+                <ImageView
+                    style="@style/imagephone"/>
+                <TextView
+                    style="@style/textphone"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/layoutsix">
+                <ImageView
+                    style="@style/imagewebsit"/>
+                <TextView
+                    style="@style/textwebsit"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
