@@ -93,6 +93,8 @@
         <item name="android:textColor">@color/colorWite</item>
         <item name="android:textSize">@dimen/size_text_phone</item>
         <item name="android:layout_margin">@dimen/layout_margin_phon</item>
+        <item name="android:clickable">true</item>
+        <item name="android:autoLink">phone</item>
     </style>
 
     <style name="layoutsix">
@@ -119,6 +121,7 @@
         <item name="android:textSize">@dimen/size_text_location</item>
         <item name="android:textColor">@color/colorWite</item>
         <item name="android:layout_marginBottom">@dimen/layout_margin_location_text_button</item>
+        <item name="android:clickable">true</item>
+        <item name="android:autoLink">web</item>
     </style>
-
 </resources>
