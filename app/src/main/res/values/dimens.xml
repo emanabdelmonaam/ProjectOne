@@ -11,7 +11,7 @@
     <dimen name="pading_logo_name">20dp</dimen>
 
 
-    <dimen name="layout_hight_location">55dp</dimen>
+    <dimen name="layout_hight_location">60dp</dimen>
     <dimen name="layout_hight_facebook">70dp</dimen>
 
     <dimen name="layout_width_location">55dp</dimen>
@@ -24,12 +24,12 @@
 
 
     <dimen name="layout_margin_location">14dp</dimen>
-    <dimen name="layout_margin_location_text">10dp</dimen>
+    <dimen name="layout_margin_location_text">9dp</dimen>
     <dimen name="layout_margin_location_textl">20dp</dimen>
     <dimen name="layout_margin_location_text_button">15dp</dimen>
 
 
-    <dimen name="layout_margin_layoutThree">20dp</dimen>
+    <dimen name="layout_margin_layoutThree">35dp</dimen>
 
     <dimen name="layout_margin_phon">15dp</dimen>
     <dimen name="layout_margin_websit">10dp</dimen>

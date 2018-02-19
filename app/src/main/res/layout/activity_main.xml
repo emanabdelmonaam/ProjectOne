@@ -4,12 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorBlack"
-    >
+    android:background="@color/colorBlack">
     <LinearLayout
         style="@style/layoutOne">
-        <LinearLayout
-            style="@style/layoutTwo">
             <ImageView
                 style="@style/imageLogo"/>
             <TextView
@@ -20,10 +17,7 @@
                 android:fontFamily="sans-serif-light"
                 android:textAlignment="center"
                 style="@style/text_slogan"/>
-        </LinearLayout>
 
-        <LinearLayout
-            style="@style/layoutthree">
             <LinearLayout
               style="@style/layoutfour">
                 <ImageView
@@ -50,8 +44,6 @@
                     style="@style/textwebsit"
                     android:textAlignment="center" />
             </LinearLayout>
-
-        </LinearLayout>
 
     </LinearLayout>
 

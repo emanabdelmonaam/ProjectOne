@@ -16,15 +16,6 @@
         <item name="android:orientation">vertical</item>
     </style>
 
-
-    <style name="layoutTwo">
-        <item name="android:layout_width"> match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:orientation">vertical</item>
-    </style>
-
-
-
     <style name="imageLogo">
         <item name="android:layout_width"> match_parent</item>
         <item name="android:layout_height">@dimen/logo_size</item>
@@ -32,7 +23,6 @@
         <item name="android:layout_gravity">center</item>
         <item name="android:layout_margin">@dimen/logo_margin</item>
     </style>
-
 
     <style name="textCompanyName">
         <item name="android:layout_width"> match_parent</item>
@@ -46,8 +36,6 @@
         <item name="android:textSize">@dimen/title_company</item>
     </style>
 
-
-
     <style name="text_slogan">
         <item name="android:layout_width"> match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -59,32 +47,20 @@
         <item name="android:textAllCaps">true</item>
     </style>
 
-
-    <style name="layoutthree">
-        <item name="android:layout_width"> match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:orientation">vertical</item>
-        <item name="android:layout_marginTop">@dimen/layout_margin_layoutThree</item>
-    </style>
-
-
     <style name="layoutfour">
-        <item name="android:layout_marginTop">@dimen/layout_margin_top</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin_layoutThree</item>
         <item name="android:layout_width"> match_parent</item>
         <item name="android:layout_height">@dimen/layout_hight_location</item>
         <item name="android:orientation">horizontal</item>
         <item name="android:layout_marginRight">@dimen/layout_margin_location</item>
         <item name="android:layout_marginLeft">@dimen/layout_margin_location</item>
         <item name="android:layout_weight">1</item>
-
     </style>
-
     <style name="imagelocation">
         <item name="android:layout_width">@dimen/image_width</item>
         <item name="android:layout_height">@dimen/image_hight</item>
         <item name="android:src">@drawable/locationo</item>
     </style>
-
     <style name="textlocation">
         <item name="android:layout_width"> wrap_content</item>
         <item name="android:layout_height">match_parent</item>
@@ -93,7 +69,6 @@
         <item name="android:layout_marginTop">@dimen/layout_margin_location_text</item>
         <item name="android:textColor">@color/colorWite</item>
         <item name="android:textSize">@dimen/size_text_location</item>
-
     </style>
 
     <style name="layoutfive">
@@ -104,14 +79,12 @@
         <item name="android:layout_height">@dimen/layout_hight_location</item>
         <item name="android:orientation">horizontal</item>
         <item name="android:layout_weight">1</item>
-
     </style>
     <style name="imagephone">
         <item name="android:layout_width">@dimen/image_width</item>
         <item name="android:layout_height">@dimen/image_hight</item>
         <item name="android:src">@drawable/phoneo</item>
     </style>
-
     <style name="textphone">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
@@ -131,8 +104,6 @@
         <item name="android:layout_height">@dimen/layout_hight_facebook</item>
         <item name="android:orientation">horizontal</item>
     </style>
-
-
     <style name="imagewebsit">
         <item name="android:layout_width">@dimen/imagef_width</item>
         <item name="android:layout_height">@dimen/imagef_hight</item>
@@ -148,8 +119,6 @@
         <item name="android:textSize">@dimen/size_text_location</item>
         <item name="android:textColor">@color/colorWite</item>
         <item name="android:layout_marginBottom">@dimen/layout_margin_location_text_button</item>
-
-
     </style>
 
 </resources>
